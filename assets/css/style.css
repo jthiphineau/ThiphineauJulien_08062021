@@ -42,6 +42,42 @@ main {
   margin-right: auto;
 }
 
+.search {
+  padding: 15px 0 15px 0;
+  background-color: #eaeaea;
+  text-align: center;
+}
+
+.reserve {
+  padding: 40px 30px 50px 30px;
+  background-color: #f6f6f6;
+  text-align: center;
+}
+
+.operation {
+  padding: 50px 20px 40px 20px;
+  margin-bottom: 30px;
+}
+
+.restaurant {
+  padding: 50px 20px 40px 20px;
+  background-color: #f6f6f6;
+}
+
+.container {
+  width: 75%;
+  margin: auto;
+}
+
+.containerRestaurant {
+  height: 250px;
+}
+
+.containerRestaurant img {
+  max-height: 175px;
+  width: 100%;
+}
+
 footer {
   background-color: #353535;
   padding: 25px;
