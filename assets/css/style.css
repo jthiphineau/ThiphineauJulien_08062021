@@ -1,6 +1,6 @@
 body {
-  max-width: 600px;
-  margin: 0 auto;
+  /* max-width: 600px;
+  margin: 0 auto; */
   font-family: "Roboto", sans-serif;
 }
 
@@ -25,6 +25,59 @@ h3 {
   font-size: 24px;
   font-family: "Shrikhand", sans-serif;
   color: white;
+}
+
+.loader {
+  /* display: flex; */
+  /* align-items: center; */
+  width: 100%;
+  height: 1000px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #f6f6f6;
+  animation: loader2 5s;
+  animation-fill-mode: forwards;
+}
+.loader:after {
+  content: "ohmyfood";
+  font-size: 40px;
+  font-family: "Shrikhand", sans-serif;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  position: fixed;
+  z-index: 1;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  /* background-color: #f6f6f6; */
+  border: 6px solid rgb(10, 226, 39);
+  border-color: rgb(140, 5, 5) transparent rgb(86, 15, 201) transparent;
+  animation: loader 5s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+}
+@keyframes loader {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+    opacity: 0;
+  }
+}
+
+@keyframes loader2 {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
 }
 
 header {
@@ -70,7 +123,7 @@ main {
 }
 
 .containerRestaurant {
-  height: 250px;
+  /* height: 250px; */
 }
 
 .containerRestaurant img {
