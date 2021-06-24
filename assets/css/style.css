@@ -33,7 +33,7 @@ h3 {
   width: 100%;
   height: 1000px;
   position: fixed;
-  z-index: 1;
+  z-index: 0;
   top: 0;
   left: 0;
   background-color: #f6f6f6;
@@ -60,6 +60,8 @@ h3 {
   animation: loader 5s;
   animation-timing-function: ease-in-out;
   animation-fill-mode: forwards;
+  overflow: hidden;
+  z-index: 0;
 }
 @keyframes loader {
   0% {
