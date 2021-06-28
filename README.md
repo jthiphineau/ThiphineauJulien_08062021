@@ -4,7 +4,6 @@ Dynamisez une page web avec des animations CSS
 
 # OhMyFood
 
-![maquetteOhmyfood](assets/img/mockup/Maquettes Ohmyfood.jpeg)
 ![maquetteWebOhmyfood](assets/img/mockup/Accueil.png)
 
 ## Éléments fournis

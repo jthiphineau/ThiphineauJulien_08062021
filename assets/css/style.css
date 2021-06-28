@@ -39,6 +39,7 @@ h3 {
   background-color: #f6f6f6;
   animation: loader2 5s;
   animation-fill-mode: forwards;
+  pointer-events: none;
 }
 .loader:after {
   content: "ohmyfood";
@@ -61,7 +62,7 @@ h3 {
   animation-timing-function: ease-in-out;
   animation-fill-mode: forwards;
   overflow: hidden;
-  z-index: 0;
+  pointer-events: none;
 }
 @keyframes loader {
   0% {
