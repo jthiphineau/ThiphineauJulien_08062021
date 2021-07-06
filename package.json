@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/jthiphineau/ThiphineauJulien_08062021/issues"
   },
-  "homepage": "https://github.com/jthiphineau/ThiphineauJulien_08062021#readme"
+  "homepage": "https://github.com/jthiphineau/ThiphineauJulien_08062021#readme",
+  "dependencies": {
+    "sass": "^1.35.1"
+  }
 }
