@@ -1,5 +1,5 @@
 @import "./Utils/variables", "./Utils/mixins", "./Utils/animations";
-@import "./Base/typography", "./Base/reset";
+@import "./Base/typography";
 @import "./Components/btn", "./Components/heart", "./Components/badge_new",
   "./Components/_check_icons";
 @import "./Pages/resto_page";
@@ -23,7 +23,7 @@
   content: "ohmyfood";
   font-size: 40px;
   font-family: "Shrikhand", sans-serif;
-  background: -webkit-repeating-linear-gradient(#ff79da, #9356dc);
+  background: -webkit-linear-gradient(top, #ff79da, #9356dc);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   display: flex;

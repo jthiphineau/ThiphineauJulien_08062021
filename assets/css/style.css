@@ -411,7 +411,7 @@ a {
   content: "ohmyfood";
   font-size: 40px;
   font-family: "Shrikhand", sans-serif;
-  background: -webkit-repeating-linear-gradient(#ff79da, #9356dc);
+  background: -webkit-linear-gradient(top, #ff79da, #9356dc);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   display: flex;
