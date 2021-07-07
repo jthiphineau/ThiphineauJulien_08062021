@@ -177,38 +177,7 @@ a {
     transform: scaleX(1);
   }
 }
-@keyframes rebound {
-  0% {
-    transform: translateY(0);
-  }
-  25% {
-    transform: translateY(30px);
-  }
-  75% {
-    transform: translateY(-30px);
-  }
-  100% {
-    transform: translateY(0);
-  }
-}
-@keyframes loader {
-  0% {
-    background-color: #c4c3c0;
-  }
-  25% {
-    background-color: #c4c3c0;
-  }
-  50% {
-    background-color: #c4c3c0;
-  }
-  80% {
-    background-color: rgba(196, 195, 192, 0.5);
-  }
-  100% {
-    background-color: rgba(196, 195, 192, 0.5);
-    visibility: hidden;
-  }
-}
+
 @keyframes fill {
   0% {
     opacity: 0;
