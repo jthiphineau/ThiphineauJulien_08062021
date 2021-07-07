@@ -30,7 +30,6 @@
     transform: scaleX(1);
   }
 }
-
 @keyframes loader {
   0% {
     transform: rotate(0deg);
@@ -40,7 +39,6 @@
     opacity: 0;
   }
 }
-
 @keyframes loader2 {
   0% {
     opacity: 1;
@@ -95,7 +93,7 @@ a {
   display: block;
   width: max-content;
   margin: auto;
-  background-image: linear-gradient(#ff79da, #9356dc);
+  background-image: linear-gradient(#FF79DA, #9356DC);
   color: white;
   border-radius: 30px;
   box-shadow: 2px 2px 10px #c4c3c0;
@@ -117,7 +115,7 @@ a {
 }
 .heart:hover {
   animation: fill 1s ease-out;
-  background: linear-gradient(#ff79da, #9356dc);
+  background: linear-gradient(#FF79DA, #9356DC);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-weight: bold;
@@ -130,7 +128,7 @@ a {
   justify-content: center;
   height: 30px;
   width: 80px;
-  background-color: #99e2d0;
+  background-color: #99E2D0;
   color: #008766;
   position: absolute;
   right: 10px;
@@ -177,7 +175,23 @@ a {
     transform: scaleX(1);
   }
 }
-
+@keyframes loader {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+    opacity: 0;
+  }
+}
+@keyframes loader2 {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
 @keyframes fill {
   0% {
     opacity: 0;
@@ -224,7 +238,7 @@ a {
   display: block;
   width: max-content;
   margin: auto;
-  background-image: linear-gradient(#ff79da, #9356dc);
+  background-image: linear-gradient(#FF79DA, #9356DC);
   color: white;
   border-radius: 30px;
   box-shadow: 2px 2px 10px #c4c3c0;
@@ -246,7 +260,7 @@ a {
 }
 .heart:hover {
   animation: fill 1s ease-out;
-  background: linear-gradient(#ff79da, #9356dc);
+  background: linear-gradient(#FF79DA, #9356DC);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-weight: bold;
@@ -259,7 +273,7 @@ a {
   justify-content: center;
   height: 30px;
   width: 80px;
-  background-color: #99e2d0;
+  background-color: #99E2D0;
   color: #008766;
   position: absolute;
   right: 10px;
@@ -321,7 +335,7 @@ a {
   margin-top: 5px;
   width: 40px;
   height: 3px;
-  background-color: #99e2d0;
+  background-color: #99E2D0;
   animation: progress 2s;
   animation-fill-mode: both;
   transform: scale(0);
@@ -360,7 +374,7 @@ a {
   height: 70px;
   width: 60px;
   opacity: 0;
-  background-color: #99e2d0;
+  background-color: #99E2D0;
   margin-left: 25px;
   margin-right: -70px;
   border-radius: 0 10px 10px 0;
@@ -379,8 +393,8 @@ a {
 }
 
 .loader {
-  /* display: flex; */
-  /* align-items: center; */
+  display: flex;
+  align-items: center;
   width: 100%;
   height: 1000px;
   position: fixed;
@@ -392,23 +406,23 @@ a {
   animation-fill-mode: forwards;
   pointer-events: none;
 }
+
 .loader:after {
   content: "ohmyfood";
   font-size: 40px;
   font-family: "Shrikhand", sans-serif;
+  background: -webkit-repeating-linear-gradient(#ff79da, #9356dc);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   display: flex;
   width: 100%;
   height: 100%;
   top: 0;
   left: 0;
   position: fixed;
-  z-index: 1;
+  z-index: 2;
   align-items: center;
   justify-content: center;
-  border-radius: 50%;
-  /* background-color: #f6f6f6; */
-  border: 6px solid rgb(10, 226, 39);
-  border-color: rgb(140, 5, 5) transparent rgb(86, 15, 201) transparent;
   animation: loader 5s;
   animation-timing-function: ease-in-out;
   animation-fill-mode: forwards;
@@ -477,7 +491,7 @@ a {
   height: 25px;
   width: 25px;
   border-radius: 50%;
-  background-color: #9356dc;
+  background-color: #9356DC;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -489,7 +503,7 @@ a {
   background-color: #f2eafb;
 }
 .tuto__card:hover :nth-child(2) {
-  color: #9356dc;
+  color: #9356DC;
 }
 
 .restaurants {
@@ -562,7 +576,7 @@ a {
   }
 
   h2,
-  .footer__logo {
+.footer__logo {
     width: 100%;
     margin: 0;
   }
