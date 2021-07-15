@@ -11,8 +11,8 @@ Dynamisez une page web avec des animations CSS
 - La maquette pour les résolutions ordinateur et téléphone nous est donné.
 - Toutes les images présentes sur le site sont aussi livrés en format sm, md, l & xl.
 - Les icones proviennent de [Font Awesome](https://fontawesome.com/)
-- Les couleurs sont : bleu #0065FC - bleu clair #DEEBFF - gris #F2F2F2
-- La police est ["Raleway"](https://fonts.google.com/specimen/Raleway)
+- Les couleurs sont : primaire #9356DC - secondaire #FF79DA - Tertiaire #99E2D0
+- La police est ["Shrikhand"](https://fonts.google.com/specimen/Shrikhand) pour le logo et ["Roboto"](https://fonts.google.com/specimen/Roboto) pour le texte
 
 ## Cahier des charges
 
@@ -23,7 +23,7 @@ Dynamisez une page web avec des animations CSS
 - Dans le menu, les liens “Hébergements” et “Activités” sont des ancres qui doivent mener aux sections de la page.
 - Même si aucune maquette pour la résolution tablette n'est fournis, l'intégration doit la prendre en charge.
 - Les images doivent être de taille adéquate afin qu'elle soit le plus jolie possible en impactant le moins possible le temps de chargement de la page.
-- [Le code devra utiliser les balises sémantiques et ne doit contenir aucune erreur ni alerte au validateur W3C HTML et CSS.](https://validator.w3.org/nu/?doc=https%3A%2F%2Fjthiphineau.github.io%2FThiphineauJulien_2_06052021%2F)
+- [Le code devra utiliser les balises sémantiques et ne doit contenir aucune erreur ni alerte au validateur W3C HTML et CSS.](https://validator.w3.org/nu/?doc=https%3A%2F%2Fjthiphineau.github.io%2FThiphineauJulien_3_08062021%2F)
 - Le site devra être compatible avec les dernières versions de Chrome et Firefox.
 - Le HTML et le CSS doivent être séparés et le dossier doit être organisé
 - Le code doit être versionné avec git et doit avoir un repo distant sur Github ou Gitlab
